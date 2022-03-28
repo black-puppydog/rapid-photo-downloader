@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rapid-photo-downloader"
+version = "0.9.33"
+description = "Downloads, renames and backs up photos and videos from cameras, phones, memory cards and other devices"
+authors = ["Damon Lynch"]
+license = "GPL 3+"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
