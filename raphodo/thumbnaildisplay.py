@@ -2770,8 +2770,8 @@ class ThumbnailDelegate(QStyledItemDelegate):
 
     def getLeftPoint(self, rect: QRect) -> QPointF:
         return QPointF(
-            rect.x() + self.horizontal_margin,
-            rect.y() + self.image_frame_bottom + self.footer_padding - 1,
+            int(rect.x() + self.horizontal_margin),
+            int(rect.y() + self.image_frame_bottom + self.footer_padding - 1),
         )
 
     def getCheckBoxRect(self, rect: QRect) -> QRectF:
