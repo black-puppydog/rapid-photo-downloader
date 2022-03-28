@@ -6,7 +6,7 @@ authors = ["Damon Lynch"]
 license = "GPL 3+"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = ">=3.7,<4.0"
 PyQt5 = "^5.15.6"
 psutil = ">=3.4.2"
 gphoto2 = ">=1.8.0"
@@ -26,6 +26,8 @@ tenacity = "^8.0.1"
 Pillow = ">=5.1.0"
 Babel = "^2.9.1"
 show-in-file-manager = ">=1.1.2"
+pycairo = "^1.21.0"
+PyGObject = "^3.42.0"
 
 [tool.poetry.dev-dependencies]
 
